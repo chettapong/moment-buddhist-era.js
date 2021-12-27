@@ -1,5 +1,4 @@
 # Moment Buddhist Era
-[![CI](https://github.com/chettapong/moment-buddhist-era.js/actions/workflows/ci.yml/badge.svg)](https://github.com/chettapong/moment-buddhist-era.js/actions/workflows/ci.yml)
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
