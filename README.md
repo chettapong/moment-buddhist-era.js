@@ -15,7 +15,7 @@
 ## Setup
 
 ### Browser
-Grab the file as well as moment.js. Then simply reference twix after Moment:
+Grab the file as well as moment.js. Then simply reference Moment Buddhist Era after Moment:
 ```html
 <script src="moment.min.js"></script>
 <script src="moment-buddhist-era.js"></script>
