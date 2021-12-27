@@ -1,6 +1,6 @@
 {
   "name": "@chettapong/moment-buddhist-era.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Buddhist Era (B.E.) support plugin for Moment.js",
   "license": "MIT",
   "keywords": [
