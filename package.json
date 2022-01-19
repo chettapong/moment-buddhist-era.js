@@ -21,7 +21,8 @@
   "main": "./lib/moment-buddhist-era.js",
   "types": "types/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "types/*.d.ts"
   ],
   "scripts": {
     "lint": "eslint --ext \".js\" --ignore-path .gitignore .",
