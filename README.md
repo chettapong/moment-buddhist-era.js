@@ -60,6 +60,20 @@ Disabled Buddhist Era in format method
 moment('2019-06-27T02:15:07+07:00').format('MM/DD/YYYY', { be: false }) // 06/27/2019
 ```
 
+## Using with TypeScript
+
+Add `@via-thailand/via-moment-buddhist-era` to the `compilerOptions.types` section of your project's `tsconfig.json` file:
+
+```json
+{
+  compilerOptions: {
+    "types": [
+      "@via-thailand/via-moment-buddhist-era",
+    ]
+  },
+}
+```
+
 ## License
 
 [MIT License](./LICENSE)
