@@ -62,13 +62,13 @@ moment('2019-06-27T02:15:07+07:00').format('MM/DD/YYYY', { be: false }) // 06/27
 
 ## Using with TypeScript
 
-Add `@via-thailand/via-moment-buddhist-era` to the `compilerOptions.types` section of your project's `tsconfig.json` file:
+Add `@chettapong/moment-buddhist-era.js` to the `compilerOptions.types` section of your project's `tsconfig.json` file:
 
 ```json
 {
-  compilerOptions: {
+  "compilerOptions": {
     "types": [
-      "@via-thailand/via-moment-buddhist-era",
+      "@chettapong/moment-buddhist-era.js",
     ]
   },
 }
