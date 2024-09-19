@@ -1,6 +1,6 @@
-import * as moment from 'moment';
+import * as moment from 'moment'
 
-declare module "moment" {
+declare module 'moment' {
   interface Moment {
     buddhistEra(): boolean
     buddhistEra(value: boolean): moment.Moment
