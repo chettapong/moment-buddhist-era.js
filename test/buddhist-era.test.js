@@ -158,7 +158,7 @@ describe('buddhist-era', () => {
   test('Should return correct date without time in YYYY-MM-DDTHH:mm:ss.sssZ format with option', () => {
     expect(
       moment('2020-02-29T02:15:07+07:00').format('YYYY-MM-DDTHH:mm:ss.sssZ', {
-        be: false,
+        be: false
       })
     ).toStrictEqual('2020-02-29T02:15:07.077+07:00')
   })
