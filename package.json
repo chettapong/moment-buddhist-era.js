@@ -28,7 +28,7 @@
     "lint": "eslint --ext \".js\" --ignore-path .gitignore .",
     "test": "yarn lint && jest",
     "prepare": "husky install",
-    "release": "yarn test && yarn version && git push --follow-tags && npm publish"
+    "release": "yarn test && git push --follow-tags && npm publish"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
