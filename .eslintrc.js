@@ -8,7 +8,8 @@ module.exports = {
   extends: [
     'standard',
     'plugin:import/errors',
-    'plugin:import/warnings'
+    'plugin:import/warnings',
+    'prettier'
   ],
   plugins: [
     'jest',

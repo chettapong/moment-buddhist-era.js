@@ -436,6 +436,7 @@ __metadata:
     "@commitlint/cli": "npm:^15.0.0"
     "@commitlint/config-conventional": "npm:^15.0.0"
     eslint: "npm:^8.5.0"
+    eslint-config-prettier: "npm:^10.1.8"
     eslint-config-standard: "npm:^16.0.3"
     eslint-plugin-import: "npm:^2.25.3"
     eslint-plugin-jest: "npm:^25.3.0"
@@ -2310,6 +2311,17 @@ __metadata:
     escodegen: bin/escodegen.js
     esgenerate: bin/esgenerate.js
   checksum: 10c0/7d9834841db85d7cce2026c18da56c803564ca18bd6c1e81934cc08329ac4d366fac8b571e8708a81e21143f3dada56a4e34c9a9904c8b066f13abe8d9869871
+  languageName: node
+  linkType: hard
+
+"eslint-config-prettier@npm:^10.1.8":
+  version: 10.1.8
+  resolution: "eslint-config-prettier@npm:10.1.8"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 10c0/e1bcfadc9eccd526c240056b1e59c5cd26544fe59feb85f38f4f1f116caed96aea0b3b87868e68b3099e55caaac3f2e5b9f58110f85db893e83a332751192682
   languageName: node
   linkType: hard
 
